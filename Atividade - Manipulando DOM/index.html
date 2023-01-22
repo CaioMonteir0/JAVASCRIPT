@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Home Registration</h2>
+    <form id="register">
+       
+            <p>
+            <label>Número: </label>
+            <input type="text" name="housenumber">
+        </p>
+
+        <p>
+            <label for="">Bairro: </label>
+            <input type="text" name="district">
+        </p>
+
+        <p>
+            <label for="">Cidade: </label>
+            <input type="text" name="city">
+        </p>
+
+        <p>
+            <label for="">Área: </label>
+            <input type="text" name="area">
+        </p>
+       <ul id="house-list"></ul>
+        
+
+        <button onclick="addHouseInfo()" type="button">Adicionar</button>
+    </form>
+</body>
+</html>
